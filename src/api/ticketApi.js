@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const API_URL = "http://localhost:3000/api/tickets";
+export const API_URL = "https://ticketbookingbackend-cmz1.onrender.com/api/tickets";
 
 export const getTickets = () => axios.get(API_URL);
 
